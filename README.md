@@ -1,2 +1,1 @@
-# Pegasus-CHAT
 # PEGASUS-WINGS
