@@ -1,0 +1,16 @@
+    116.0859	       E D N
+    107.5929	       H K L
+     74.0411	         F I
+     31.9234	C O M Q A B P G J
+     22.7375	C O M Q A B P G J F I
+       8.407	C O M Q A B P G J F I H K L
+      6.9375	       P G J
+      5.4709	         K L
+      4.4522	   A B P G J
+      3.9136	M Q A B P G J
+      3.0654	         G J
+      2.2155	         D N
+      1.2703	O M Q A B P G J
+      1.2514	     B P G J
+      1.0307	 Q A B P G J
+           0	C O M Q A B P G J F I H E D N K L
