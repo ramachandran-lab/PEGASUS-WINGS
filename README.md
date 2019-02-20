@@ -5,6 +5,14 @@ Authors: Melissa R. McGuirl, Samuel Pattillo Smith, Bjorn Sandstede, Sohini Rama
 
 # Description: 
 This repository contains MATLAB code for WINGS, an algorithim which clusters phenotypes using gene score as the input feature vectors with a thresholded Ward hierarchical clustering algorithm. The identified clusters are ranked by significance. 
+ 
+### Usage:
+
+```
+matlab 
+WINGS(gene_scores, outdir, scale, plotOn, saveOn, cluser_alg, cluster_dist, sz_thresh)
+
+```
 
 # Inputs:
 1) gene_scores is a .txt or .csv file containing a matrix of PEGASUS gene score feature vectors of size M + 1 X N + 1,
@@ -42,11 +50,11 @@ cd src
 WINGS('../examples/sim_example_small.csv', '../outputs', 'raw', 1, 1, 'ward', 'euclidean', 4)
 ```
 
-# Examples and Data: 
+# Data and Outputs: 
 Sample inputs are contained in the 'examples' folder and sample outputs and figures are contained in the 'outputs' folder. 'sim_example.csv' and 'sim_example_small.csv' are toy simulations, whereas 'UKBiobank_small_raw.txt', 'UKBiobank_expanded_raw.txt', and 'UKBiobank_expanded_log10.txt' correspond to the empirical PEGASUS scores for the UKBiobank data (as described in the paper). The sample results in 'outputs' correspond to the outputs from running the sample run above. 
 
 # Requirements:
-MATLAB with  the Statistics and Machine Learning Toolbox
+MATLAB with the Statistics and Machine Learning Toolbox
 
 # References:
 This work is based upon the paper: [add citation] 
