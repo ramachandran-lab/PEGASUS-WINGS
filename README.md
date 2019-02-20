@@ -37,10 +37,10 @@ significant clusters with corresponding branch length threshold and (2) all clus
 (if saveOn = 1).
 
 # Sample Run: 
+```
 cd src
-
 WINGS('../examples/sim_example_small.csv', '../outputs', 'raw', 1, 1, 'ward', 'euclidean', 4)
-
+```
 
 # Examples and Data: 
 Sample inputs are contained in the 'examples' folder and sample outputs and figures are contained in the 'outputs' folder. 'sim_example.csv' and 'sim_example_small.csv' are toy simulations, whereas 'UKBiobank_small_raw.txt', 'UKBiobank_expanded_raw.txt', and 'UKBiobank_expanded_log10.txt' correspond to the empirical PEGASUS scores for the UKBiobank data (as described in the paper). The sample results in 'outputs' correspond to the outputs from running the sample run above. 
