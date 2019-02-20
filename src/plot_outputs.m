@@ -8,7 +8,6 @@
 function [] =  plot_outputs(Z, pheno_labels, N, clusters, small_clusters, sorted_branches, branchLength_gap, all_cluster_labels, outdir)
 
 f = figure(1);
-% subplot(1,2,1)
 d = dendrogram(Z,0,'Labels', pheno_labels);
 set(d,'LineWidth',2.5)
 
@@ -27,8 +26,10 @@ end
 xtickangle(90)
 title('Dendrogram')
 set(gca,'fontSize', 10)
-% subplot(1,2,2)
-f = figure(2);
+saveas(f,[outdir '/WINGS_Output_dendro.jpg'])
+
+g = figure(2);
+hold on
 scatter([1:1:length(small_clusters)], sorted_branches(small_clusters), 150,'filled');
 hold on
 plot([1:1:length(small_clusters)],branchLength_gap*ones(1,length(small_clusters)) , 'r--', 'LineWidth', 4)
@@ -41,7 +42,7 @@ legend('Branch Lengths', 'Branch Length Cut Off')
 title('Sorted Branch Lengths')
 suptitle('Hierarchical Clustering Output')
 set(gca,'fontSize', 10)
-saveas(f,[outdir '/ClusterOutput.jpg'])
+saveas(g,[outdir '/WINGS_Output_BL.jpg'])
 
 end
 
