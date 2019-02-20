@@ -1,8 +1,10 @@
 # PEGASUS-WINGS
 Ward clustering using Inter Node distances of Gene Score arrays to define signficance (WINGS)
 
+Authors: Melissa R. McGuirl, Samuel Pattillo Smith, Bjorn Sandstede, Sohini Ramachandran
+
 # Description: 
-This repository contains MATLAB code clusters phenotypes using PEGASUS gene score as the feature vectors with a threshold hierarchical clustering algorithm. The clusters are ranked by significance. 
+This repository contains MATLAB code for WINGS, an algorithim which clusters phenotypes using gene score as the input feature vectors with a thresholded Ward hierarchical clustering algorithm. The identified clusters are ranked by significance. 
 
 # Inputs:
 1) gene_scores is a .txt or .csv file containing a matrix of PEGASUS gene score feature vectors of size M + 1 X N + 1,
@@ -37,11 +39,11 @@ significant clusters with corresponding branch length threshold and (2) all clus
 # Sample Run: 
 cd src
 
-cluster_phenos('../examples/sim_example_small.csv', '../outputs', 'raw', 1, 1, 'ward', 'euclidean', 4)
+WINGS('../examples/sim_example_small.csv', '../outputs', 'raw', 1, 1, 'ward', 'euclidean', 4)
 
 
 # Examples and Data: 
-Sample inputs are contained in the 'examples' folder and sample outputs are contained in the 'outputs' folder. 'sim_example.csv' and 'sim_example_small.csv' are toy simulations, whereas 'UKBiobank_small_raw.txt', 'UKBiobank_expanded_raw.txt', and 'UKBiobank_expanded_log10.txt' correspond to the empirical PEGASUS scores for the UKBiobank data (as described in the paper). 
+Sample inputs are contained in the 'examples' folder and sample outputs and figures are contained in the 'outputs' folder. 'sim_example.csv' and 'sim_example_small.csv' are toy simulations, whereas 'UKBiobank_small_raw.txt', 'UKBiobank_expanded_raw.txt', and 'UKBiobank_expanded_log10.txt' correspond to the empirical PEGASUS scores for the UKBiobank data (as described in the paper). The sample results in 'outputs' correspond to the outputs from running the sample run above. 
 
 # Requirements:
 MATLAB with  the Statistics and Machine Learning Toolbox
