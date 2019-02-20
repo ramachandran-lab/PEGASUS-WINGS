@@ -1,7 +1,7 @@
 # PEGASUS-WINGS
 Ward clustering using Inter Node distances of Gene Score arrays to define signficance (WINGS)
 
-Authors: Melissa R. McGuirl, Samuel Pattillo Smith, Bjorn Sandstede, Sohini Ramachandran
+Authors: Melissa R. McGuirl, Samuel Pattillo Smith, Björn Sandstede, Sohini Ramachandran
 
 # Description: 
 This repository contains MATLAB code for WINGS, an algorithim which clusters phenotypes using gene score as the input feature vectors with a thresholded Ward hierarchical clustering algorithm. The identified clusters are ranked by significance. 
