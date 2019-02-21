@@ -51,7 +51,7 @@ WINGS('../examples/sim_example_small.csv', '../outputs', 'raw', 1, 1, 'ward', 'e
 ```
 
 # Example ata and Outputs: 
-Sample inputs are contained in the 'examples' folder and sample outputs and figures are contained in the 'outputs' folder. 'sim_example.csv' and 'sim_example_small.csv' are toy simulations, whereas 'UKBiobank_small_raw.txt', 'UKBiobank_expanded_raw.txt', and 'UKBiobank_expanded_log10.txt' correspond to the empirical PEGASUS scores for the UKBiobank data (as described in the paper). The sample results in 'outputs' correspond to the outputs from running the sample run above. 
+Sample inputs are contained in the 'examples' folder and sample outputs and figures are contained in the 'outputs' folder. 'sim_example.csv' and 'sim_example_small.csv' are toy simulations, whereas 'UKBiobank_small_raw.txt' (raw Pegasus scores from 26 phenotypes), 'UKBiobank_expanded_raw.txt' (raw Pegasus scores from 87 phenotypes), and 'UKBiobank_expanded_log10.txt' (log10 transformed Pegasus scores from 87 phenotypes--note, input data is assumed to be on the raw scale) correspond to the empirical PEGASUS scores for the UKBiobank data (as described in the paper). The sample results in 'outputs' correspond to the outputs from running the sample run above. 
 
 # Requirements:
 MATLAB with the Statistics and Machine Learning Toolbox
