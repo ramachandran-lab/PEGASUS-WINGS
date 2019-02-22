@@ -24,7 +24,7 @@ for k = 1:N
     end
 end
 xtickangle(90)
-title('Dendrogram')
+title('WINGS Dendrogram')
 set(gca,'fontSize', 10)
 saveas(f,[outdir '/WINGS_Output_dendro.jpg'])
 
@@ -39,8 +39,7 @@ xticks([1:1:length(small_clusters)])
 xticklabels( all_cluster_labels(small_clusters));
 xtickangle(90)
 legend('Branch Lengths', 'Branch Length Cut Off')
-title('Sorted Branch Lengths')
-subtitle('Hierarchical Clustering Output')
+title('WINGS Sorted Branch Lengths')
 set(gca,'fontSize', 10)
 saveas(g,[outdir '/WINGS_Output_BL.jpg'])
 
