@@ -40,7 +40,7 @@ xticklabels( all_cluster_labels(small_clusters));
 xtickangle(90)
 legend('Branch Lengths', 'Branch Length Cut Off')
 title('Sorted Branch Lengths')
-suptitle('Hierarchical Clustering Output')
+subtitle('Hierarchical Clustering Output')
 set(gca,'fontSize', 10)
 saveas(g,[outdir '/WINGS_Output_BL.jpg'])
 
