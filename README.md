@@ -16,8 +16,8 @@ WINGS(gene_scores, outdir, scale, plotOn, saveOn, cluser_alg, cluster_dist, sz_t
 
 # Inputs:
 1) gene_scores is a .txt or .csv file containing a matrix of PEGASUS gene score feature vectors of size M + 1 X N + 1,
-where M = number of gene, N = number of phenotypes with the first row containing all the gene names/labels and
-the first column containing all of the phenotype names/labels.
+where M = number of genes, N = number of phenotypes with the first column containing all the gene names/labels and
+the first row containing all of the phenotype names/labels.
 
 2) outdir is the directory where the user wants to save the output images and files (optional, default = './').
 
