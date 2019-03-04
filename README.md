@@ -1,5 +1,5 @@
 # PEGASUS-WINGS
-Ward clustering using Inter Node distances of Gene Score arrays to define signficance (WINGS)
+Ward  clustering  to  identify Internal  Node  branch  length  outliers  using  Gene  Scores (WINGS)
 
 Authors: Melissa R. McGuirl, Samuel Pattillo Smith, Björn Sandstede, Sohini Ramachandran
 
